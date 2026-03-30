@@ -137,14 +137,9 @@ flowchart LR
 
 ```bash
 cd ~
-mkdir -p lab15_symmetric
+git clone https://github.com/Mohanad0101/lab15_symmetric.git
 cd lab15_symmetric
 ```
-
-Рабочий каталог лабораторной:
-
-`~/lab15_symmetric`
-
 ---
 
 ## 2) Создание виртуального окружения Python
@@ -166,22 +161,12 @@ pip install ipywidgets
 
 ---
 
-## 3) Копирование ноутбука в каталог лабораторной
-
-Скопируйте файл `lab_symmetric_ciphers_ru.ipynb` в `~/lab15_symmetric`.
-
-Пример команды (при необходимости скорректируйте путь):
-
-```bash
-cp "/path/to/lab_symmetric_ciphers_ru.ipynb" ~/lab15_symmetric/
-```
-
 Проверка:
 
 ```bash
 ls -la ~/lab15_symmetric
 ```
-
+lab_symmetric_ciphers_ru.ipynb
 ---
 
 ## 4) Запуск JupyterLab и выполнение ноутбука
