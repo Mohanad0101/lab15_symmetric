@@ -160,6 +160,7 @@ python -m pip install --upgrade pip
 Установите JupyterLab:
 
 ```bash
+pip install ipywidgets
 pip install jupyterlab
 ```
 
